@@ -1,0 +1,30 @@
+name: walisinghe_harischandra_college
+description: "walisinghe_harischandra_college."
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  loading_animation_widget: ^1.2.0+4
+  mobile_scanner: ^6.0.10
+  # path_provider: ^1.6.24
+  # qr_flutter: ^3.2.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/splash screen/logo.png
+    - assets/splash screen/Fuchsius.png
+    
+
+
